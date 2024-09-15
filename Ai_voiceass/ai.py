@@ -11,8 +11,8 @@ import os
 engine = pyttsx3.init()
 recognizer = sr.Recognizer()
 
-newsapi = "5ac420cd777d4471a1df9909dc91fec1"
-weatherapi = "ef882dd4f563639f3721268af44fa964"
+newsapi = "5ac420cd777d4471a1df91fec1"
+weatherapi = "ef882dd4f56af44fa964"
 
 def speak(text):
     engine.say(text)
